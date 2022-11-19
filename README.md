@@ -42,6 +42,7 @@ train = False
 if train:
   model.train()
   while True:
+## Extract the graph of the model
       ypred = model(x)
       loss = loss_func(ypred, yn)
       optimizer.zero_grad()
@@ -70,8 +71,9 @@ script = torch.jit.script(model) # for dynamic graphs
 script.save("model_graph.pt") # save graph to disk so we can access this graph from libtorch cpp API
 ```
 
+## Migrate to production for deployment
 
-## Access model from CPP: example
+### Access model from CPP: example
 
 ```cpp
 #include <torch/script.h> // One-stop header.
