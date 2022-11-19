@@ -1,0 +1,2 @@
+-I/home/user/sources/lib/libtorch/include
+-L/home/user/sources/lib/libtorch/lib

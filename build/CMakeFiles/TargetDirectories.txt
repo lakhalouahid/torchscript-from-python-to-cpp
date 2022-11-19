@@ -1,0 +1,3 @@
+/home/user/projects/torchjit/build/CMakeFiles/main.dir
+/home/user/projects/torchjit/build/CMakeFiles/edit_cache.dir
+/home/user/projects/torchjit/build/CMakeFiles/rebuild_cache.dir
